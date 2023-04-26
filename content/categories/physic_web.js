@@ -588,7 +588,7 @@ $(document).ready(function() {
 
 
             if (video_name.length > 0 && i == 1) {
-                let str = '<hr> <h4>相關影片</h4> <hr>'
+                let str = ''
                 $('.' + type_name + '-html-video').prepend(str);
             }
 

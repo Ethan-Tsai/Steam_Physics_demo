@@ -217,28 +217,28 @@ p {
     font-family: 'Libre Baskerville', serif;
     font-weight: 900;
     font-size: larger;
+    color: rgb(0, 21, 255);
 }
 
 #生活物理 {
     font-family: 'Libre Baskerville', serif;
     font-weight: 900;
-}
-
-#STEAM2 {
-    font-weight: 300;
-    font-size: larger;
-    color: rgb(0, 21, 255);
-}
-
-#生活物理2 {
-    font-family: 'Libre Baskerville', serif;
     color: rgb(0, 21, 255);
 }
 
 .html-content {
     color: black;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+.html-video {
+    margin: auto;
+    width: 95%;
+    border: 3px solid green;
+    padding: 10px;
+    background-color: #444444;
 }
 
 #re iframe {
