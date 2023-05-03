@@ -115,7 +115,7 @@ h2 {
 }
 
 .bg-light {
-    /* --bs-bg-opacity: 0; */
+    --bs-bg-opacity: 0;
     background: #0a58ca;
 }
 
@@ -129,6 +129,7 @@ h2 {
 .progress-bar2 {
     height: 50px;
     background: #04AA6D;
+    background-color: whitesmoke;
     width: 0%;
     background-image: linear-gradient(to right, #444444, whitesmoke);
     position: absolute;
