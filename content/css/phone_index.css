@@ -116,7 +116,7 @@ h2 {
 
 .bg-light {
     --bs-bg-opacity: 1;
-    z-index: 20;
+    z-index: 21;
     background: #0a58ca;
     background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity))!important;
 }
@@ -135,7 +135,7 @@ h2 {
     width: 0%;
     background-image: linear-gradient(to right, #444444, whitesmoke);
     position: absolute;
-    z-index: 21;
+    z-index: 20;
 }
 
 @media(min-width:580px) {
