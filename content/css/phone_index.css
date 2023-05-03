@@ -110,11 +110,25 @@ h2 {
     top: 0px;
     z-index: 20;
     background-color: whitesmoke;
+    height: 34px;
 }
 
 .navbar-toggler {
     /* --bs-navbar-padding-y: 0; */
     z-index: 25;
+    border: none;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    height: 3px;
+    border: none;
+}
+
+.navbar-toggler-icon {
+    padding-bottom: 24px;
+    height: 1px;
 }
 
 .bg-light {
@@ -132,7 +146,7 @@ h2 {
 }
 
 .progress-bar2 {
-    height: 50px;
+    height: 28px;
     background-color: whitesmoke;
     width: 0%;
     background-image: linear-gradient(to right, #444444, whitesmoke);
