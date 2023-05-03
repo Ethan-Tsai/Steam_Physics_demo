@@ -119,9 +119,9 @@ h2 {
 
 .bg-light {
     --bs-bg-opacity: 0;
-    z-index: 19;
+    z-index: 24;
     background: #0a58ca;
-    background-color: rgba(var(--bs-light-rgb), 1)!important;
+    background-color: rgba(var(--bs-light-rgb), 0)!important;
 }
 
 .progress-bar {
