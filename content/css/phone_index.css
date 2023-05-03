@@ -97,7 +97,8 @@ h2 {
     width: 100%;
 }
 
-.progress-container2 {
+
+/* .progress-container2 {
     width: 100%;
     height: 8px;
     background: #0a58ca;
@@ -115,36 +116,36 @@ h2 {
 
 .navbar-toggler {
     /* --bs-navbar-padding-y: 0; */
-    z-index: 25;
-    border: none;
-    padding-bottom: 20px;
-    padding-bottom: 20px;
-    position: absolute;
-    right: 0px;
-    top: 5px;
-    height: 3px;
-    border: none;
-}
 
+
+/* 
+z-index: 25;
+border: none;
+padding-bottom: 20px;
+padding-bottom: 20px;
+position: absolute;
+right: 0px;
+top: 5px;
+height: 3px;
+border: none;
+
+}
 .navbar-toggler-icon {
     padding-bottom: 24px;
     height: 1px;
 }
-
 .bg-light {
     --bs-bg-opacity: 0;
     z-index: 24;
     background: #0a58ca;
     background-color: rgba(var(--bs-light-rgb), 0)!important;
 }
-
 .progress-bar {
     height: 8px;
     background: #04AA6D;
     width: 0%;
     background-image: linear-gradient(to right, #608799, #003d5b);
 }
-
 .progress-bar2 {
     height: 28px;
     background-color: whitesmoke;
@@ -152,7 +153,58 @@ h2 {
     background-image: linear-gradient(to right, #444444, whitesmoke);
     position: absolute;
     z-index: 20;
+} */
+
+
+/**/
+
+.navbar-toggler {
+    border: none;
 }
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+}
+
+.Reading-progress-bar {
+    position: relative;
+    top: 0;
+    background-color: #f5f5f5;
+    /* height: 16px; */
+    /* font-size: 16px; */
+    /* font-weight: 500; */
+    /* line-height: 25px; */
+    /* color: #252525; */
+    /* border-bottom: 4px solid #cd0505; */
+    z-index: 7;
+}
+
+.Reading-progress-bar-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 30.2px;
+    background-color: #dadada;
+    z-index: 7;
+}
+
+.container-fluid {
+    z-index: 8;
+}
+
+
+/**/
 
 @media(min-width:580px) {
     .fig {
