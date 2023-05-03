@@ -115,7 +115,7 @@ h2 {
 }
 
 .bg-light {
-    --bs-bg-opacity: 0;
+    /* --bs-bg-opacity: 0; */
     background: #0a58ca;
 }
 
