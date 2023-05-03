@@ -112,11 +112,11 @@ h2 {
 }
 
 .navbar button {
-    --bs-navbar-padding-y: 0;
+    /* --bs-navbar-padding-y: 0; */
 }
 
 .bg-light {
-    --bs-bg-opacity: 1;
+    --bs-bg-opacity: 0;
     z-index: 21;
     background: #0a58ca;
     background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity))!important;
