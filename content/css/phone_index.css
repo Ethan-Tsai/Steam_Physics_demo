@@ -108,6 +108,7 @@ h2 {
     background: whitesmoke;
     position: relative;
     top: 0px;
+    z-index: 20;
 }
 
 .navbar button {
