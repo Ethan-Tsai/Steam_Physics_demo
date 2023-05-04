@@ -195,9 +195,15 @@ border: none;
     left: 0;
     top: 0;
     height: 30.2px;
-    background-color: #dadada;
-    background-image: linear-gradient(to left, #c3d0ae, #DADADA, #ACB4B8, #506873);
+    background-color: #ccc;
+    background-image: linear-gradient(to right, #608799, #003d5bc0);
     z-index: 7;
+}
+
+#content {
+    background-image: linear-gradient(to top, #003d5b, #608799);
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .container-fluid {
