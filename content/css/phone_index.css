@@ -174,7 +174,7 @@ border: none;
     background-image: var(--bs-navbar-toggler-icon-bg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 90%;
+    background-size: 95%;
 }
 
 .Reading-progress-bar {
@@ -194,10 +194,15 @@ border: none;
     position: absolute;
     left: 0;
     top: 0;
-    height: 30.2px;
+    height: 9px;
     background-color: #ccc;
     background-image: linear-gradient(to right, #608799, #003d5bc0);
     z-index: 7;
+}
+
+.bg-light {
+    background-color: #ccc;
+    z-index: 0;
 }
 
 #content {
