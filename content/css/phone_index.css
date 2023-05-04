@@ -196,7 +196,7 @@ border: none;
     top: 0;
     height: 30.2px;
     background-color: #dadada;
-    background-image: linear-gradient(to right, #224150, #3F6E84, #507B8F);
+    background-image: linear-gradient(to left, #c3d0ae, #DADADA, #ACB4B8, #506873);
     z-index: 7;
 }
 
