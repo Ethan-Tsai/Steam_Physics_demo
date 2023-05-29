@@ -5,6 +5,8 @@
 if ($type!=-1) {
  
     mkdir('../../categories/type'.$type.'/'.$item, 0777, true);
+    mkdir('../../categories/type'.$type.'/'.$item.'/heading_pdf', 0777, true);
+    mkdir('../../categories/type'.$type.'/'.$item.'/heading_picture', 0777, true);
     
 }
 echo '<script language="javascript">';

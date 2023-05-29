@@ -63,7 +63,7 @@ if($status == "null") {
 <h3>新建實驗項目</h3>
 step0:
 <form action="./action/add_exp.php" method="POST">
-    <label for="type">類別(第幾大項)</label>
+    <label for="type">類別(第幾大項)!重要!從6開始</label>
     <input type="text" name="type">
 <br>
     <label for="item">實驗名稱(建議參照手冊提供類別名稱邏輯接續)</label>
