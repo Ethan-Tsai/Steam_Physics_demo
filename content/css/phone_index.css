@@ -222,7 +222,8 @@ border: none;
     margin-left: 0;
 }
 
-#bar2 {
+
+/* #bar2 {
     display: none;
 }
 
@@ -237,7 +238,7 @@ border: none;
     #bar1 {
         display: none;
     }
-}
+} */
 
 @media(max-width:991px) {
     .navbar-toggler {
