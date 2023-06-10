@@ -29,7 +29,7 @@ h2 {
 }
 
 .header {
-    overflow: hidden;
+    /* overflow: hidden; */
     -webkit-transition: height 0.3s;
     -moz-transition: height 0.3s;
     transition: height 0.3s;
@@ -163,7 +163,8 @@ border: none;
 }
 
 .navbar {
-    --bs-navbar-padding-y: 0;
+    --bs-navbar-padding-y: 40;
+    --bs-navbar-padding-x: 40;
 }
 
 .navbar-toggler-icon {
@@ -213,6 +214,81 @@ border: none;
 
 .container-fluid {
     z-index: 8;
+    height: 100%;
+}
+
+.container-fluid>.navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#bar2 {
+    display: none;
+}
+
+#bar1 {
+    display: block;
+}
+
+@media(min-width:992px) {
+    #bar2 {
+        display: block;
+    }
+    #bar1 {
+        display: none;
+    }
+}
+
+@media(max-width:991px) {
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar {
+        --bs-navbar-padding-y: 0;
+    }
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        vertical-align: middle;
+        background-image: var(--bs-navbar-toggler-icon-bg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 95%;
+    }
+    .Reading-progress-bar {
+        position: relative;
+        top: 0;
+        background-color: #f5f5f5;
+        /* height: 16px; */
+        /* font-size: 16px; */
+        /* font-weight: 500; */
+        /* line-height: 25px; */
+        /* color: #252525; */
+        /* border-bottom: 4px solid #cd0505; */
+        z-index: 7;
+    }
+    .Reading-progress-bar-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 9px;
+        background-color: #ccc;
+        background-image: linear-gradient(to right, #608799, #003d5bc0);
+        z-index: 7;
+    }
+    .bg-light {
+        background-color: #ccc;
+        z-index: 0;
+    }
+    #content {
+        background-image: linear-gradient(to top, #003d5b, #608799);
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .container-fluid {
+        z-index: 8;
+    }
 }
 
 
@@ -222,11 +298,15 @@ border: none;
     .fig {
         max-width: 580px;
         position: relative;
+        /* top: 10px; */
         align-items: center;
         margin-left: 30%;
         margin-right: 30%;
         margin-top: 10px;
-        margin-bottom: -25px;
+        padding-top: 10px;
+        /* margin-bottom: -25px; */
+        background-color: #444444;
+        /* z-index: -99; */
     }
     .fig #carouselExampleIndicators {
         position: relative;
